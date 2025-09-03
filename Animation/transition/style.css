@@ -1,0 +1,32 @@
+.container{
+    height: 500px;
+    width: 500px;
+    background-color: green;
+    border: solid red 3px;
+    display: flex;
+}
+.box{
+    background-color: orange;
+    border: 2px solid grey;
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+    /* transition: 2s; */
+    /* transition-property: background-color;
+    transition-delay: 5s; */
+    transition: transform  1s linear 2s  ;
+}
+    .box:hover{
+        background-color: hotpink;
+        transform:scale(1.5) translate(300px) rotate(360deg);
+    }
+    .box1{
+        height: 100px;
+        width: 100px;
+        background-color: azure;
+        margin: 20px;
+        transition: width 2s linear(-0.05 -18.24%, 1.18 -12.33%, 1 100%) 1s;
+    }
+    .box1:hover{
+        width:300px;
+    }
