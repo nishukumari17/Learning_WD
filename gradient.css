@@ -1,0 +1,29 @@
+.box{
+    border: 1px solid black;
+    height: 200px;
+    width: 150px;
+    background-image:linear-gradient(red,yellow) ;
+    background-image:linear-gradient(to right,red,yellow) ;
+    background-image:linear-gradient(to left,red,yellow) ;
+    background-image:linear-gradient(to top,red,yellow) ;
+   
+    background-image:linear-gradient(to bottom,red,yellow) ;
+    background-image:linear-gradient(to top left,red,yellow) ;
+    background-image: linear-gradient(to bottom,rgba(94, 10, 6, 0),rgba(215, 215, 24, 1));
+}
+.mydiv{
+    border: 1px solid black;
+    margin: 20px;
+    width: 200px;
+    height: 150px;
+    background-image: radial-gradient(circle,blue,red,pink,yellow);
+    background-image:radial-gradient(yellow 15%, orange 19% , red 50%) ;
+}
+.cone{
+    border:solid black 1px;
+    height:200px;
+    width:300px;
+    margin: 10px;
+    background-image:conic-gradient;
+
+}

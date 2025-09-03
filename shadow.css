@@ -1,0 +1,17 @@
+h1{
+    text-shadow:3px 3px 3px grey, 5px 5px 3px red ;
+}
+.box{
+    background-color: aquamarine;
+    width:200px;
+    height:200px;
+    color:rgb(123, 34, 240);
+    box-shadow: -10px -10px 5px green,15px 15px 5px rgb(96, 81, 81) ;
+}
+.box2{
+    height: 100px;
+    width: 200px;
+    /* box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.5) */
+    box-shadow: 0 0 0 12px #0791ed; 
+    margin: 100px;
+}

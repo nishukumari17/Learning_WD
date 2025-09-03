@@ -1,0 +1,17 @@
+.box{
+    background-color: blanchedalmond;
+    /* transform: translate(50px,100px); */
+    /* transform:rotate(-40deg) */
+    margin: 100px;
+    transform: scale(1,2);
+    transform: skew(-50deg);
+}
+div{
+    height:100px;
+    width:100px;
+    border:solid black 1px;
+}
+.box1{
+    /* translate */
+    transform:perspective(10px) translateZ(-5px)
+}

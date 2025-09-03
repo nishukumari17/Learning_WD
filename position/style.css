@@ -1,0 +1,19 @@
+div{
+    display:inline-block;
+     height:200px;
+    width: 200px;
+    background-color: aquamarine;
+   
+    border: 1px solid black;
+    
+}
+.boxb{
+    position: relative;
+    /* position: absolute; */
+    top: 50px;
+    right:130px;
+    background-color: antiquewhite;
+
+
+}
+

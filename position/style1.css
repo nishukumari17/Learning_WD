@@ -1,0 +1,28 @@
+div{
+   
+     height:150px;
+    width: 150px;
+    background-color: aquamarine;
+   
+    border: 1px solid black;
+    position: static;
+}
+#b{
+    position: relative;
+    left: 1300px;
+    bottom: 150px;
+}
+#c{
+    position: relative;
+   
+    top: 123px;
+}
+#d{
+    position: relative;
+    left: 1300px;
+  top:-30px
+}
+#pic{
+    position:relative;
+    left:700px
+}
