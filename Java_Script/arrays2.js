@@ -54,3 +54,23 @@ arr.forEach(function(numbers){
 //Minimize forEach loop
 arr.forEach(number=>console.log(number));
 
+//join
+let joining=first.join(":");
+console.log(joining)
+
+//filtering arrays
+let farray=[3,5,9,-3,-4,-1];
+let filtered=farray.filter(num=>num>=0);
+console.log(filtered);
+
+//Mapping
+let mArray=[7,8,9,10];
+let mapValue=mArray.map(value=>"Strudent No " +value);
+console.log(mapValue);
+
+//Mapping with objects
+
+let oArray=[2,5,6,-3,-5];
+let fData=oArray.filter(val=> val >= 0);
+let mData=fData.map(data=>({value:data}));
+console.log(mData);
